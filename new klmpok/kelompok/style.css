@@ -1,0 +1,57 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e78181;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: rgb(163, 111, 111);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
